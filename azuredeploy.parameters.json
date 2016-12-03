@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/mglantz/openshift-enterprise/master"
+			"value": "https://raw.githubusercontent.com/mglantz/ocp-enterprise/master"
 		},
 		"masterVmSize": {
 			"value": "Standard_DS3_v2"

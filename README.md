@@ -1,14 +1,14 @@
 # OpenShift Enterprise with Username / Password authentication for OpenShift
 
 Deploy using azuredeploy.json: 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Fopenshift-enterprise%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Fopenshift-enterprise%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 Deploy using azuredeploy.ha.json
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Fopenshift-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Fopenshift-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 

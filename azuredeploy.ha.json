@@ -8,7 +8,7 @@
 				"description": "Base URL for Template FIles",
 				"artifactsBaseUrl": ""
 			},
-			"defaultValue": "https://raw.githubusercontent.com/mglantz/openshift-enterprise/master"
+			"defaultValue": "https://raw.githubusercontent.com/mglantz/ocp-enterprise/master"
 		},
 		"azureCloud": {
 			"type": "string",
