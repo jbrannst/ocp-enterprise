@@ -18,10 +18,10 @@ Deploy using azuredeploy.ha.json
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-<br>To deploy via <i>Azure CLI</i> use:
-<i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"</i>
+To deploy via <i>Azure CLI</i> use:
+<br><i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"</i>
 <br>or
-<i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json</i>
+<br><i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json</i>
 
 
 This template deploys OpenShift Enterprise with basic username / password for authentication to OpenShift. It includes the following resources:
