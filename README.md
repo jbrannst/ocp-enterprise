@@ -6,7 +6,7 @@ Deploy using azuredeploy.json:
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-To deploy via <i>Azure CLI</i> use: 
+To deploy via <a href="https://docs.microsoft.com/en-us/azure/xplat-cli-install" target="_blank">Azure CLI</a> use: 
 <br><i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.json"</i>
 <br>or
 <br><i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.json</i>
@@ -18,7 +18,7 @@ Deploy using azuredeploy.ha.json
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-To deploy via <i>Azure CLI</i> use:
+To deploy via <a href="https://docs.microsoft.com/en-us/azure/xplat-cli-install" target="_blank">Azure CLI</a> use:
 <br><i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"</i>
 <br>or
 <br><i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json</i>
