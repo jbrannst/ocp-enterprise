@@ -7,9 +7,9 @@ Deploy using azuredeploy.json:
 </a>
 
 To deploy via <i>Azure CLI</i> use: 
-azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.json"
-or
-azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.json
+<br><i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.json"</i>
+<br>or
+<br><i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.json</i>
 
 
 Deploy using azuredeploy.ha.json
@@ -17,11 +17,10 @@ Deploy using azuredeploy.ha.json
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
-
-To deploy via <i>Azure CLI</i> use:
-azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"
-or
-azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json
+<br>To deploy via <i>Azure CLI</i> use:
+<i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"</i>
+<br>or
+<i>azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json</i>
 
 
 This template deploys OpenShift Enterprise with basic username / password for authentication to OpenShift. It includes the following resources:
