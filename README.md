@@ -5,12 +5,21 @@ Deploy using azuredeploy.json:
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+To deploy via <i>Azure CLI</i> use: 
+azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.json"
+or
+azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.json
+
 
 Deploy using azuredeploy.ha.json
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+To deploy via <i>Azure CLI</i> use:
+azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"
+or
+azure group deployment create --resource-group changeMe -f /path/to/azuredeploy.ha.json
 
 
 This template deploys OpenShift Enterprise with basic username / password for authentication to OpenShift. It includes the following resources:
