@@ -17,6 +17,7 @@ Deploy using azuredeploy.ha.json
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmglantz%2Focp-enterprise%2Fmaster%2Fazuredeploy.ha.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+
 <br>To deploy via <i>Azure CLI</i> use:
 <i>azure group deployment create --resource-group changeMe --template-uri "https://raw.githubusercontent.com/mglantz/ocp-enteprise/master/azuredeploy.ha.json"</i>
 <br>or
