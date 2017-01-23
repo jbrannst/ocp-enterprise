@@ -56,7 +56,6 @@ cat > /etc/ansible/hosts <<EOF
 masters
 nodes
 etcd
-nfs
 
 # Set variables common for all OSEv3 hosts
 [OSEv3:vars]
@@ -82,17 +81,6 @@ openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 
 
 # Enable cockpit
 osm_use_cockpit=true
-
-# Setup NFS
-openshift_hosted_registry_storage_kind=nfs
-openshift_hosted_registry_storage_access_modes=['ReadWriteMany']
-openshift_hosted_registry_storage_host=$MASTERPUBLICIPHOSTNAME
-openshift_hosted_registry_storage_nfs_directory=/srv/nfs
-openshift_hosted_registry_storage_volume_name=registry
-openshift_hosted_registry_storage_volume_size=5Gi
-
-[nfs]
-$MASTER
 
 # host group for masters
 [masters]
