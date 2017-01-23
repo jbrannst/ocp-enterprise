@@ -27,7 +27,7 @@ echo $(date) " - Install base packages and update system to latest packages"
 yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion
 yum -y update --exclude=WALinuxAgent
 
-# Install Docker 1.10.3
+# Install Docker 1.12.5
 echo $(date) " - Installing Docker 1.12.5"
 
 yum -y install docker-1.12.5
