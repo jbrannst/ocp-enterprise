@@ -61,4 +61,7 @@ systemctl start docker
 # Restart SSH
 systemctl restart sshd
 
+# Pass for root, for Cockpitting..
+echo $PASSWORD|passwd root --stdin
+
 echo $(date) " - Script Complete"
