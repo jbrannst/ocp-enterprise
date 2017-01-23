@@ -19,7 +19,7 @@ subscription-manager repos --disable="*"
 subscription-manager repos \
     --enable="rhel-7-server-rpms" \
     --enable="rhel-7-server-extras-rpms" \
-    --enable="rhel-7-server-ose-3.3-rpms"
+    --enable="rhel-7-server-ose-3.4-rpms"
 
 # Install base packages and update system to latest packages
 echo $(date) " - Install base packages and update system to latest packages"
@@ -28,9 +28,9 @@ yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash
 yum -y update --exclude=WALinuxAgent
 
 # Install Docker 1.10.3
-echo $(date) " - Installing Docker 1.10.3"
+echo $(date) " - Installing Docker 1.12.5"
 
-yum -y install docker-1.10.3
+yum -y install docker-1.12.5
 sed -i -e "s#^OPTIONS='--selinux-enabled'#OPTIONS='--selinux-enabled --insecure-registry 172.30.0.0/16'#" /etc/sysconfig/docker
 
 # Create thin pool logical volume for Docker
