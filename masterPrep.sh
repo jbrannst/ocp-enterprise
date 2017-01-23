@@ -27,6 +27,14 @@ echo $(date) " - Install base packages and update system to latest packages"
 yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion httpd-tools
 yum -y update --exclude=WALinuxAgent
 
+# Install and enable Cockpit
+echo $(date) " - Installing and enabling Cockpit"
+
+yum -y install cockpit
+
+systemctl enable cockpit.socket
+systemctl start cockpit.socket
+
 # Install OpenShift utilities
 echo $(date) " - Installing OpenShift utilities"
 
@@ -49,5 +57,8 @@ docker-storage-setup
 
 systemctl enable docker
 systemctl start docker
+
+# Restart SSH
+systemctl restart sshd
 
 echo $(date) " - Script Complete"
