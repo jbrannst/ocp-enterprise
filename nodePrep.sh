@@ -27,6 +27,14 @@ echo $(date) " - Install base packages and update system to latest packages"
 yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion
 yum -y update --exclude=WALinuxAgent
 
+# Install and enable Cockpit
+echo $(date) " - Installing and enabling Cockpit"
+
+yum -y install cockpit
+
+systemctl enable cockpit.socket
+systemctl start cockpit.socket
+
 # Install Docker 1.12.5
 echo $(date) " - Installing Docker 1.12.5"
 
