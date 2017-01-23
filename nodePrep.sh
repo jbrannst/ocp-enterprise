@@ -53,5 +53,8 @@ docker-storage-setup
 systemctl enable docker
 systemctl start docker
 
+# Pass for root, for Cockpitting..
+echo $PASSWORD|passwd root --stdin
+
 echo $(date) " - Script Complete"
 
