@@ -27,6 +27,9 @@ echo $(date) " - Install base packages and update system to latest packages"
 yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion
 yum -y update --exclude=WALinuxAgent
 
+# Install Ansible
+yum -y install openshift-ansible
+
 # Install and enable Cockpit
 echo $(date) " - Installing and enabling Cockpit"
 
